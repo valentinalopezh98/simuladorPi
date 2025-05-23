@@ -1,0 +1,69 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a1b1f;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  background-color: #00c1d1;
+  color: white;
+  padding: 1rem 0;
+  margin: 0 0 1rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+
+.controles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+input[type="number"] {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  width: 120px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  background-color: #00c1d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3ce6f6
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+canvas {
+  background-color: #1a1b1f;
+  border: 2px solid #fff;
+}
+
+.stats {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0 2rem;
+}
